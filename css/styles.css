@@ -1,0 +1,44 @@
+/* Header section styles */
+
+header {
+  position: absolute;
+  width: 1920px;
+  top: 0px;
+  left: 0px;
+  background-color: #ffffff;
+}
+
+/* Footersection styles */
+
+.ind-footer {
+  position: absolute;
+  width: 1920px;
+  background-color: #2f303a;
+  left: 0px;
+  height: 250px;
+}
+
+.port-footer {
+  position: absolute;
+  width: 1920px;
+  background-color: #2f303a;
+  left: 0px;
+  height: 250px;
+}
+
+/* Main section styles */
+
+.main-port {
+  background-color: #ffffff;
+}
+
+.ind-top-ar {
+  width: 1600px;
+  background-color: #2f303a;
+  height: 600px;
+}
+
+.ind-ourteam-ar {
+  width: 1600px;
+  background-color: #f5f4fa;
+}
