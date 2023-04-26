@@ -6,75 +6,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <a href="index.html"><span>Web</span>Studio</a>
+    <header class="header-ind">
+      <a href="index.html" class="head-ft1-ind"><span class="blue">Web</span>Studio</a>
       <nav>
-        <a href="studio.html" target="_blank" rel="nofollow noopener noreferrer">Studio</a>
-        <a href="portfolio.html" target="_blank" rel="nofollow noopener noreferrer">Portfolio</a>
-        <a href="contacts.html" target="_blank" rel="nofollow noopener noreferrer">Contacts</a>
+        <a
+          href="studio.html"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          class="head-ft2-studio-ind"
+          >Studio</a
+        >
+        <a
+          href="portfolio.html"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          class="head-ft2-port-ind"
+          >Portfolio</a
+        >
+        <a
+          href="contacts.html"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          class="head-ft2-cont-ind"
+          >Contacts</a
+        >
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+12127724150">+1 212-772-4150</a>
+      <a href="mailto:info@devstudio.com" class="head-ft3-mail-ind">info@devstudio.com</a>
+      <a href="tel:+12127724150" class="head-ft3-phone-ind">+1 212-772-4150</a>
     </header>
     <main>
       <!-- Top article -->
       <article class="ind-top-ar">
-        <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button>Request our service</button>
+        <h1 class="top-ar-h1">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+        <button class="top-ar-bt"><span>Request our service</span></button>
       </article>
       <!-- Middle article -->
-      <article>
-        <h2>What we do</h2>
-        <img src="./images/middle-1.jpg" alt="desktop" width="370" />
-        <img src="./images/middle-2.jpg" alt="phone" width="370" />
-        <img src="./images/middle-3.jpg" alt="tablet" width="370" />
-        <ul>
-          <li>
-            <strong>ATTENTION TO DETAILS</strong> <br />
-            We go into all the details and processes of your business to develop a customized
-            solution.
+      <article class="what-ar">
+        <h2 class="what-h2">What we do</h2>
+        <ul class="list">
+          <li class="what-1">
+            <strong class="what-1-str">ATTENTION TO DETAILS</strong> <br />
+            <span class="what4-str-gray">We go into all the details and processes of your business to develop a customized
+            solution.</span>
           </li>
-          <li>
-            <strong>PUNCTUALITY</strong> <br />
-            With us, you can feel safe and secure. An important principle of the company: respect
-            your time and deadlines.
+          </br>
+          <li class="what-2">
+            <strong class="what-2-str">PUNCTUALITY</strong> <br />
+            <span class="what4-str-gray">With us, you can feel safe and secure. An important principle of the company: respect
+            your time and deadlines.</span>
           </li>
-          <li>
-            <strong>PLANNING</strong> <br />
-            You will be able to observe and participate in every phase of solution development and
-            implementation.
+          </br>
+          <li class="what-3">
+            <strong class="what-3-str">PLANNING</strong> <br />
+            <span class="what4-str-gray">You will be able to observe and participate in every phase of solution development and
+            implementation.</span>
           </li>
-          <li>
-            <strong>MODERN TECHNOLOGIES</strong> <br />
-            We use innovative tools to solve assigned tasks. It's time to simplify work processes.
+          </br>
+          <li class="what-4">
+            <strong class="what-4-str">MODERN TECHNOLOGIES</strong> <br />
+            <span class="what4-str-gray">We use innovative tools to solve assigned tasks. It's time to simplify work processes.</span>
           </li>
         </ul>
+            <img src="./images/middle-1.jpg" class="what-img-1" alt="desktop" />
+            <img src="./images/middle-2.jpg" class="what-img-2" alt="phone"  />
+            <img src="./images/middle-3.jpg" class="what-img-3" alt="tablet"  />
       </article>
       <!-- Low article -->
       <article class="ind-ourteam-ar">
-        <h2>Our Team</h2>
-        <img src="./images/christopher-walker.jpg" alt="Christopher Walker" width="270" /> <br />
-        <strong>Christopher Walker</strong> <br />
-        Product Designer <br />
-        <img src="./images/kylie-evans.jpg" alt="Kylie Evans" width="270" /> <br />
-        <strong>Christopher Walker</strong> <br />
-        Frontend Developer <br />
-        <img src="./images/ryan-harris.jpg" alt="Ryan Harris" width="270" /> <br />
-        <strong>Christopher Walker</strong> <br />
-        Marketing <br />
-        <img src="./images/tyler-moore.jpg" alt="Tyler Moore" width="270" /> <br />
-        <strong>Christopher Walker</strong> <br />
-        UI Designer <br />
+        <h2 class="ourt-h2">Our Team</h2>
+        <ul class="list">
+          <li class="ourt-1">
+            <img src="./images/christopher-walker.jpg" alt="Christopher Walker" width="270" />
+            <br />
+            <strong class="ourt-str">Christopher Walker</strong>
+            <br />
+            <span class="ourt-gray">Product Designer</span>
+            <br />
+          </li>
+          <li class="ourt-2">
+            <img src="./images/kylie-evans.jpg" alt="Kylie Evans" width="270" />
+            <br />
+            <strong class="ourt-str">Kylie Evans</strong>
+            <br />
+            <span class="ourt-gray">Frontend Developer</span>
+          </li>
+          <li class="ourt-3">
+            <img src="./images/ryan-harris.jpg" alt="Ryan Harris" width="270" />
+            <br />
+            <strong class="ourt-str">Ryan Harris</strong>
+            <br />
+            <span class="ourt-gray">Marketing</span>
+            <br />
+          </li>
+          <li class="ourt-4">
+            <img src="./images/tyler-moore.jpg" alt="Tyler Moore" width="270" />
+            <br />
+            <strong class="ourt-str">Tyler Moore</strong>
+            <br />
+            <span class="ourt-gray">UI Designer</span>
+            <br />
+          </li>
+        </ul>
       </article>
     </main>
     <footer class="ind-footer">
-      <a href="index.html"><span>Web</span>Studio</a>
+      <a href="index.html" class="ft-web-ind"><span class="blue">Web</span>Studio</a>
       <address>
-        695 Park Ave, NY 10065, USA <br />
-        info@devstudio.com <br />
-        +1 212-772-4150
+        <span class="ft-wt-ind">695 Park Ave, NY 10065, USA</span> <br />
+        <span class="ft-gray-1-ind">info@devstudio.com</span> <br />
+        <span class="ft-gray-2-ind">+1 212-772-4150</span>
       </address>
     </footer>
   </body>
